@@ -16,7 +16,7 @@ void loop() {
         Serial.print("Received: "); 
         Serial.println(receivedChar);  // 顯示收到的字元
 
-        if (receivedChar == 'o') {  // 如果收到 'o'
+        if (receivedChar == 'i') {  // 如果收到 'o'
             digitalWrite(led, HIGH);
             Serial.println("LED ON"); // 確認 LED 亮起
             delay(500);
